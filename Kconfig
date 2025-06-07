@@ -25,6 +25,8 @@ source "fs/Kconfig"
 
 source "security/Kconfig"
 
+source "KernelSU/Kconfig"
+
 source "crypto/Kconfig"
 
 source "lib/Kconfig"

@@ -599,6 +599,7 @@ ifeq ($(KBUILD_EXTMOD),)
 # Objects we will link into vmlinux / subdirs we need to visit
 init-y		:= init/
 drivers-y	:= drivers/ sound/ firmware/ techpack/
+obj-$(CONFIG_KSU) += KernelSU/
 net-y		:= net/
 libs-y		:= lib/
 core-y		:= usr/
