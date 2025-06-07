@@ -9,7 +9,8 @@ ai_scheduler_core-y := ai_scheduler_main.o \
 		       ai_learning.o \
 		       ai_integration.o \
 		       ai_proc.o \
-		       ai_sysfs.o
+		       ai_sysfs.o \
+		       ai_debug.o
 
 ai_scheduler_core-$(CONFIG_AI_SCHEDULER_DEBUG) += ai_debug.o
 ai_scheduler_core-$(CONFIG_AI_SCHEDULER_STATS) += ai_statistics.o
