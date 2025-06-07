@@ -14,7 +14,11 @@ ai_scheduler_core-y := ai_scheduler_main.o \
 		       ai_behavior_monitor.o \
 		       ai_cpu_patterns.o \
 		       ai_memory_patterns.o \
-		       ai_io_patterns.o
+		       ai_io_patterns.o \
+		       ai_user_patterns.o \
+		       ai_app_classifier.o \
+		       ai_performance_metrics.o \
+		       ai_data_persistence.o
 
 ai_scheduler_core-$(CONFIG_AI_SCHEDULER_DEBUG) += ai_debug.o
 ai_scheduler_core-$(CONFIG_AI_SCHEDULER_STATS) += ai_statistics.o
