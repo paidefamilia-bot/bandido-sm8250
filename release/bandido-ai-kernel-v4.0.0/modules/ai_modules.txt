@@ -1,0 +1,46 @@
+# Bandido AI Kernel Modules
+# These modules will be automatically loaded by the AI system
+
+# Core AI modules (built into kernel)
+ai_scheduler.ko
+ai_neural_network.ko
+ai_ml_engine.ko
+ai_pattern_recognition.ko
+ai_prediction_engine.ko
+ai_memory_management.ko
+ai_process_scheduler.ko
+ai_io_optimization.ko
+ai_cache_management.ko
+ai_resource_allocation.ko
+
+# Data collection modules
+ai_data_collection.ko
+ai_performance_monitor.ko
+ai_usage_tracker.ko
+ai_system_monitor.ko
+ai_predictive_analytics.ko
+ai_data_preprocessing.ko
+ai_statistical_analysis.ko
+
+# Machine learning modules
+ai_online_learning.ko
+ai_cross_validation.ko
+ai_hyperparameter_optimization.ko
+ai_feature_engineering.ko
+ai_model_persistence.ko
+ai_ensemble_learning.ko
+
+# GPU acceleration modules
+ai_gpu_acceleration.ko
+ai_workload_detection.ko
+ai_gpu_optimization.ko
+ai_memory_gpu_management.ko
+ai_power_gpu_efficiency.ko
+
+# Power management modules
+ai_battery_prediction.ko
+ai_thermal_management.ko
+ai_dynamic_power_scaling.ko
+
+# Note: These modules are compiled into the kernel
+# This file is for reference only
