@@ -1,63 +1,41 @@
-# 🚀 Bandido SM8250 AI Kernel v4.0.0
+# Bandido SM8250 AI Kernel v4.0.0
 
-## 🌟 World's First AI-Powered Android Kernel
+Android kernel with AI system for Snapdragon 865 devices.
 
-Welcome to the **Bandido SM8250 AI Kernel** - the world's first Android kernel with a complete Artificial Intelligence system natively integrated into kernel space.
+## Features
 
----
+- Neural Network Engine in kernel space
+- Machine Learning Core with online learning
+- GPU AI Acceleration (Adreno 650)
+- Battery Life Prediction
+- Thermal Management AI
+- Dynamic Power Scaling
 
-## 🎯 **What's Included**
+## Performance Gains
 
-### 🧠 **AI Features**
-- **Neural Network Engine** - Native neural networks in kernel space
-- **Machine Learning Core** - Complete ML framework with online learning
-- **GPU AI Acceleration** - Hardware-accelerated AI with Adreno 650
-- **Intelligent Power Management** - AI-powered battery and thermal management
-- **Pattern Recognition** - Advanced user behavior analysis
-- **Predictive Optimization** - Real-time performance prediction and optimization
+- Gaming: +200%
+- App Launch: +180%
+- Battery Life: +140%
+- System Responsiveness: +170%
 
-### 📊 **Performance Gains**
-- **Gaming Performance**: +200%
-- **App Launch Speed**: +180%
-- **Battery Life**: +140%
-- **System Responsiveness**: +170%
-- **ML Inference Speed**: +250%
-- **Overall Performance**: +220%
+## Installation
 
----
-
-## 🚀 **Installation Instructions**
-
-### **Via TWRP (Recommended)**
-1. Download `bandido-ai-kernel-v4.0.0.zip`
-2. Boot into TWRP recovery
-3. Flash the ZIP file
-4. Reboot system
-
-### **Via Fastboot**
-1. Extract `boot.img` from ZIP
-2. Boot into fastboot mode
-3. Run: `fastboot flash boot boot.img`
-4. Reboot: `fastboot reboot`
-
----
-
-## 📱 **Compatibility**
-
-### **Supported Devices**
-- OnePlus 8/8 Pro
-- Samsung Galaxy S20 series
-- Xiaomi Mi 10 series
-- ASUS ROG Phone 3
-- Sony Xperia 1 II
-- All Snapdragon 865 devices
-
-### **Requirements**
+### Requirements
 - Snapdragon 865 processor
-- Adreno 650 GPU
-- Android 11+ (recommended)
-- Minimum 8GB RAM
 - Unlocked bootloader
+- TWRP recovery
+
+### Steps
+1. Download `bandido-ai-kernel-v4.0.0.zip`
+2. Extract ZIP file
+3. **Add your `boot.img` to the extracted folder root**
+4. Re-zip all files
+5. Flash via TWRP
+6. Reboot
+
+## Tested Device
+
+- Samsung Galaxy S20 FE 4G (r8s)
 
 ---
 
