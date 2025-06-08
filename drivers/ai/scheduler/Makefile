@@ -22,7 +22,11 @@ ai_scheduler_core-y := ai_scheduler_main.o \
 		       ai_neural_network.o \
 		       ai_learning_engine.o \
 		       ai_pattern_recognition.o \
-		       ai_prediction_engine.o
+		       ai_prediction_engine.o \
+		       ai_gpu_integration.o \
+		       ai_gpu_workload_detection.o \
+		       ai_gpu_ml_acceleration.o \
+		       ai_gpu_dynamic_optimization.o
 
 ai_scheduler_core-$(CONFIG_AI_SCHEDULER_DEBUG) += ai_debug.o
 ai_scheduler_core-$(CONFIG_AI_SCHEDULER_STATS) += ai_statistics.o
